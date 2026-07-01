@@ -1,10 +1,21 @@
 /* === SERVICIOS === */
 
 .servicios {
+  /* 👇 NUEVO: Asegura el 100% del alto de la pantalla */
+  min-height: 100vh;
+
+  /* 👇 NUEVO: Centra las tarjetas y los títulos verticalmente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Mantenemos tus estilos originales */
   padding: 80px 40px;
   background: #0b0b0f54;
   text-align: center;
   color: white;
+  box-sizing: border-box; /* Clave para que los 80px de padding no sumen de más */
 }
 
 .subtitulo {

@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types'; //  Importa PropTypes obligatoriamente
+import portada from "../../assets/img/portada.jpg";
 import "../../styles/Hero.css";
 
 //  props desestructuradas
 function Hero({ eyebrow, titulo, subtitulo }) {
   return (
-    <section className="hero">
+    <section 
+    className="hero"
+  style={{ backgroundImage: `url(${portada})` }}
+>
       <div className="overlay"></div>
 
       <div className="hero-content">

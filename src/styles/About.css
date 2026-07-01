@@ -1,7 +1,16 @@
 /* servicios con foto */
 .about-section {
+  min-height: 100vh; 
+
+  
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+
+  /* Tus estilos originales */
   padding: 6rem 1.5rem;
   background-color: rgba(26, 24, 24, 0.137);
+  box-sizing: border-box; 
 }
 
 .my-container {
