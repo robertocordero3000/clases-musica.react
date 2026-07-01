@@ -36,7 +36,7 @@ function Hero({ eyebrow, titulo, subtitulo }) {
 
 Hero.propTypes = {
   eyebrow: PropTypes.string.isRequired,
-  titulo: PropTypes.node.isRequired, // Usamos 'node' porque tu título incluye una etiqueta <em>
+  titulo: PropTypes.node.isRequired,
   subtitulo: PropTypes.string.isRequired
 };
 
