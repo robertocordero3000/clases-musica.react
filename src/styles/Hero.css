@@ -1,0 +1,98 @@
+/* === HERO === */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('img/portada.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 24px;
+
+  margin-top: 64px; /* importante */
+}
+
+/* Capa oscura encima de la imagen */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 26, 26, 0.8);
+}
+
+/* Contenido por encima del overlay */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+/* Texto pequeño dorado de arriba */
+.eyebrow {
+  color: #d4a64a;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 24px;
+}
+
+/* Título principal (solo dentro del Hero) */
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.hero h1 em {
+  color: #d4a64a;
+  font-style: italic;
+}
+
+/* Subtítulo */
+.subtitle {
+  font-size: 1.125rem;
+  color: #a0a0a0;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Botones */
+.buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 16px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #d4a64a;
+  color: #1a1a1a;
+  box-shadow: 0 0 30px rgba(212, 166, 74, 0.4);
+}
+
+.btn-primary:hover {
+  background: #c2954a;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(212, 166, 74, 0.3);
+  color: #f5f5f5;
+}
+
+.btn-secondary:hover {
+  background: rgba(212, 166, 74, 0.1);
+}

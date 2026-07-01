@@ -1,0 +1,25 @@
+/* === CARRUSEL === */
+#carousel-clases {
+  padding: 80px 0;
+  background: #111;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#carousel-clases {
+  background: #1a1a1a; 
+  padding: 0;
+  margin: 0;
+}
+
+#carouselExampleCaptions {
+  margin: 0;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
